@@ -23,11 +23,11 @@ public class ProductController {
 	@GetMapping("/products")
 	public String products(final Model model) {
 		Logger.info("Inicio método products");
-		
+
 		Logger.warn("Inicio llamada Feign Products");
 		final List<ProductDTO> products = apiProduct.getProducts();
 		Logger.warn("Fin llamada Feign Products");
-		
+
 		model.addAttribute("name", "products");
 		model.addAttribute("products", products);
 		Logger.info("Inicio método products");
