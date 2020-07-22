@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Serving Web Content</title>
+<link href="/main.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Clients</h1>
+
+	<table>
+	<tr th:each="client : ${clients}">
+		<td th:text="${client.name}" />
+		<td th:text="${client.lastName}" />
+		<td th:text="${client.document}" />
+		<td th:text="${client.documentType}" />
+	</tr>
+	</table>
+</body>
+</html>

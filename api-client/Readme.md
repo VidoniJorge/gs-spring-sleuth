@@ -1,14 +1,8 @@
-# Web-Shop
+# Api-Client
 
-Aplicación web que consume las siguientes APIs
+Api-client es una simple API que retorna un listado de clientes. Para tal fin, se expone un servicio rest en la siguiente url:
 
-* api-client
-* api-producr
-
-La aplicación expone 2 endpoints para poder visualizar el listada de productos y de clientes
-
-* http://localhost:8080/products
-* http://localhost:8080/clients
+> http://localhost:8091/clients
 
 # Releases
 
@@ -35,3 +29,4 @@ También se agregó las siguientes propiedades, para conectarse a Zipkin por htt
     spring:
         zipkin:
             baseUrl: http://localhost:9411/
+

@@ -3,3 +3,5 @@ server:
   
 spring:
   application:    name: web-shop
+  zipkin:
+    baseUrl: http://localhost:9411/
