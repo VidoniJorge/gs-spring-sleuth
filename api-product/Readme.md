@@ -1,4 +1,4 @@
-# Getting Started
+# Api-Product
 
 Api-product es una simple API que retorna un listado de productos. Para tal fin, se expone un servicio rest en la siguiente url:
 
