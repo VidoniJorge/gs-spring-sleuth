@@ -1,4 +1,4 @@
-# Getting Started
+# Web-Shop
 
 Aplicación web que consume el api de producto. La aplicación levanta una simple página web la cual muestra los productos disponibles.  
 Para acceder a esta tenemos que entrar a: 
