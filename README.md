@@ -20,7 +20,7 @@ La parte importante para nosotros es:
 
 Los datos que presenta **Sleuth** tienen el siguiente formato:
     
-    **[nombre de la aplicación, traceId, spanId, export]**
+    [nombre de la aplicación, traceId, spanId, export]
 
 * **Nombre de la aplicación:** este es el nombre que establecemos en el archivo de propiedades y se puede usar para agregar registros de varias instancias de la misma aplicación.
 * **TraceId**: esta es una identificación que se asigna a una sola solicitud, trabajo o acción.  
